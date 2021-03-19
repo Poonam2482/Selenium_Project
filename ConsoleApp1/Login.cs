@@ -31,7 +31,7 @@ namespace ConsoleApp1
             string TestID = "", SrNo = "", Module = "", ExpectedResult = "", AlertText = "Pass";
             try
             {
-                string filePath = ConfigurationManager.AppSettings["InputFilePath"];
+                string filePath = ConfigurationManager.AppSettings["InputFilePath1"];
                 string fileExt = Path.GetExtension(filePath); //get the file extension
                 ReadExcel(filePath, fileExt);
 

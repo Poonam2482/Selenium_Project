@@ -20,6 +20,7 @@ using System.Collections.ObjectModel;
 
 namespace ConsoleApp1
 {
+    [TestClass]
     class Login
     {
         IWebDriver m_driver;

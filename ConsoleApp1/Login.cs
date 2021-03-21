@@ -20,12 +20,14 @@ using System.Collections.ObjectModel;
 
 namespace ConsoleApp1
 {
-    class Login
+    [TestClass]
+    public class Login
     {
         IWebDriver m_driver;
         DataTable dtLog = new DataTable();
         DataSet ds = new DataSet();
         #region "Login Automation"
+        [TestMethod]
         public void Login_Automation()
         {
             string TestID = "", SrNo = "", Module = "", ExpectedResult = "", AlertText = "Pass";

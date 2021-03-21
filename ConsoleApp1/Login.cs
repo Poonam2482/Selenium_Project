@@ -21,11 +21,7 @@ using System.Collections.ObjectModel;
 namespace ConsoleApp1
 {
     [TestClass]
-<<<<<<< HEAD
     public class Login
-=======
-    class Login
->>>>>>> 0584fe9f11aee0a790ea445d525a21380e12d57e
     {
         IWebDriver m_driver;
         DataTable dtLog = new DataTable();

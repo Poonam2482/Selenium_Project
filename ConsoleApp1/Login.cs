@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.IE;
-//using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.IO;
 using OfficeOpenXml;
 using OpenQA.Selenium.Support.UI;
@@ -17,18 +17,17 @@ using System.Configuration;
 using System.Collections.Specialized;
 using OpenQA.Selenium.Interactions;
 using System.Collections.ObjectModel;
-using NUnit.Framework;
 
 namespace ConsoleApp1
 {
-    [TestFixture]
+    [TestClass]
     public class Login
     {
         IWebDriver m_driver;
         DataTable dtLog = new DataTable();
         DataSet ds = new DataSet();
         #region "Login Automation"
-        [Test]
+        [TestMethod]
         public void Login_Automation()
         {
             string TestID = "", SrNo = "", Module = "", ExpectedResult = "", AlertText = "Pass";

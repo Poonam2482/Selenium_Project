@@ -28,7 +28,7 @@ namespace ConsoleApp1
         DataTable dtLog = new DataTable();
         DataSet ds = new DataSet();
         #region "Login Automation"
-        [Test]
+        [TestCase]
         public void Login_Automation()
         {
             string TestID = "", SrNo = "", Module = "", ExpectedResult = "", AlertText = "Pass";

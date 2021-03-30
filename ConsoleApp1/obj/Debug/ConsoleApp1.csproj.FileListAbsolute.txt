@@ -13,3 +13,4 @@ D:\Poonam\Projects\LoginSample\Selenium\ConsoleApp1\obj\Debug\ConsoleApp1.csproj
 D:\Poonam\Projects\LoginSample\Selenium\ConsoleApp1\obj\Debug\ConsoleApp1.exe
 D:\Poonam\Projects\LoginSample\Selenium\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
 D:\Poonam\Projects\LoginSample\Selenium\ConsoleApp1\bin\Debug\nunit.framework.dll
+D:\Poonam\Projects\LoginSample\Selenium\ConsoleApp1\bin\Debug\nunit.framework.xml
